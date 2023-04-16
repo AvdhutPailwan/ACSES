@@ -2755,11 +2755,13 @@ hr {
 }
 
 .slider-area {
+    background-color: #30091c;
     margin-top: -1px;
-    background-image: url(../img/hero/drstrange.jpg);
+    background-image: url(../img/hero/squid.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover
+    background-size: 69%;
+    background-position: right;
 }
 
 .slider-area .hero__caption {
@@ -3554,7 +3556,7 @@ hr {
 }
 
 .about-low-area .about-img .about-back-img {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     z-index: 0

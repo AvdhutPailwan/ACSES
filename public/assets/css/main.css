@@ -2628,7 +2628,7 @@ hr {
 }
 
 .header-area .header-top {
-    padding: 13px 0
+    padding: 12px 0
 }
 
 .header-area .header-top .header-info-left ul li {
@@ -2684,7 +2684,7 @@ hr {
 .main-header .main-menu ul li a {
     color: #021a47;
     font-weight: 500;
-    padding: 28px 19px;
+    padding: 20px 15px;
     display: block;
     font-size: 16px;
     position: relative;
