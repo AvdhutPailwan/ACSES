@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Sarabun:400,500,600,700,800|Sen:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800");
 
+@font-face {
+    font-family: 'Game Of Squids';
+    src: url('../fonts/game_of_squids/Game\ Of\ Squids.ttf');
+}
+
 :root{
     --squid-color: #30091c;
+    --fill-color: #EB1E86;
+}
+
+.game-of-squid-font{
+    font-family: 'Game Of Squids', "Roboto", sans-serif ; 
 }
 
 .white-bg {
@@ -428,7 +438,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #3e44ec;
+    background: var(--fill-color);
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -505,7 +515,7 @@ hr {
 }
 
 .white-btn::before {
-    background: #000;
+    background: var(--fill-color);
     color: #fff
 }
 
@@ -2576,7 +2586,7 @@ hr {
     transition: all .3s ease-out 0s;
     text-transform: capitalize;
     position: relative;
-    font-family: "Sen", sans-serif
+    font-family: "Game Of Squids","Sen", sans-serif
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
