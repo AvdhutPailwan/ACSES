@@ -3,6 +3,7 @@
 
 :root{
     --squid-color: #30091c;
+    --fill-color: #EB1E86;
 }
 
 .white-bg {
@@ -428,7 +429,7 @@ hr {
     top: 0;
     width: 101%;
     height: 101%;
-    background: #3e44ec;
+    background: var(--fill-color);
     z-index: 1;
     border-radius: 5px;
     transition: transform 0.5s;
@@ -505,7 +506,7 @@ hr {
 }
 
 .white-btn::before {
-    background: #000;
+    background: var(--fill-color);
     color: #fff
 }
 
