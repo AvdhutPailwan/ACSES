@@ -59,6 +59,10 @@
     color: #30091c
 }
 
+header{
+    background-color: var(--squid-color);
+}
+
 .boxed-btn {
     background: #fff;
     color: #30091c !important;
@@ -409,12 +413,16 @@ hr {
 }
 
 .btn {
-    background: #30091c;
+    
+    background-image: url("../img/Button/Union.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     padding: 27px 44px;
-    color: #fff;
+    color: var(--fill-color);
     cursor: pointer;
     display: inline-block;
-    font-size: 16px;
+    font-size: 0.8vw;
     border-radius: 0px;
     -moz-user-select: none;
     font-weight: 400;
@@ -462,7 +470,7 @@ hr {
 }
 
 .header-btn {
-    padding: 30px 26px
+    padding: 26px 39px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -615,13 +623,14 @@ hr {
     position: fixed;
     top: 0;
     width: 100%;
-    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    /* -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); */
+    /* box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); */
     z-index: 9999;
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
-    background: #fff
+    /* -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); */
+    /* background: #fff */
+    backdrop-filter: blur(8px);
 }
 
 .mt-5 {
@@ -2576,11 +2585,11 @@ hr {
 }
 
 .header-area .main-header .main-menu ul li a {
-    color: #112957;
+    color: var(--fill-color);
     font-weight: 400;
     padding: 39px 27px;
     display: block;
-    font-size: 16px;
+    font-size: 0.8vw;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
