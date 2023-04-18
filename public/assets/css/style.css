@@ -489,7 +489,8 @@ hr {
 
 .black-btn {
     padding: 14px 35px;
-    background: #000
+    background: #000;
+    float: left;
 }
 
 .black-btn::before {
@@ -3201,7 +3202,8 @@ hr {
 
 .pricing-card-area .single-card.active .card-bottom .black-btn {
     background: #fff;
-    color: #30091c !important
+    color: #30091c !important;
+    font-family: "Game Of Squids","Sen", sans-serif;
 }
 
 .pricing-card-area .single-card.active .card-bottom .black-btn::before {
@@ -3209,7 +3211,7 @@ hr {
 }
 
 .pricing-card-area .single-card:hover {
-    background: #31118f
+    background: #EB1E86
 }
 
 .pricing-card-area .single-card:hover .card-top {
@@ -6948,3 +6950,9 @@ del {
   background: #316ce8;
 }
 
+.row .single-card .card-img {
+    height: 40%;
+    width: 40%;
+    float: left;
+    padding-top: 20%;
+}
