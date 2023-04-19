@@ -2613,7 +2613,7 @@ hr {
 }
 
 .header-area .main-header .main-menu ul li:hover>a {
-    color: var(--nav-hover-color)
+    color: var(--nav-hover-color);
 }
 
 .header-area .main-header .main-menu ul ul.submenu {
