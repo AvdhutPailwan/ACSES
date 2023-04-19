@@ -6,13 +6,14 @@
     src: url('../fonts/game_of_squids/Game\ Of\ Squids.ttf');
 }
 
-:root{
+:root {
     --squid-color: #30091c;
     --fill-color: #EB1E86;
+    --nav-hover-color: #00E6D7;
 }
 
-.game-of-squid-font{
-    font-family: 'Game Of Squids', "Roboto", sans-serif ; 
+.game-of-squid-font {
+    font-family: 'Game Of Squids', "Roboto", sans-serif;
 }
 
 .white-bg {
@@ -59,7 +60,7 @@
     color: #30091c
 }
 
-header{
+header {
     background-color: var(--squid-color);
 }
 
@@ -414,7 +415,7 @@ hr {
 }
 
 .btn {
-    
+
     background-image: url("../img/Button/Union.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -451,20 +452,77 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    opacity: 0;
     z-index: 1;
     border-radius: 5px;
-    transition: transform 0.5s;
+    /* transition: transform 0.5s;
     transition-timing-function: ease;
     transform-origin: 0 0;
     transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
-    transform: scaleX(0);
+    transform: scaleX(0); */
     border-radius: 0px
 }
 
 .btn:hover::before {
-    transform: scaleX(1);
+    /* transform: scaleX(1); */
+    animation: fadeIn 0.5s;
+    -webkit-animation: fadeIn 0.5s;
+    -moz-animation: fadeIn 0.5s;
+    -o-animation: fadeIn 0.5s;
+    -ms-animation: fadeIn 0.5s;
+    opacity: 1;
     color: #fff !important;
     z-index: -1
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .btn.focus,
@@ -2458,7 +2516,7 @@ hr {
     margin-bottom: 17px;
     line-height: 1.3;
     margin-bottom: 30px;
-    font-family: "Game Of Squids","Sen", sans-serif;
+    font-family: "Game Of Squids", "Sen", sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2603,7 +2661,7 @@ hr {
     transition: all .3s ease-out 0s;
     text-transform: capitalize;
     position: relative;
-    font-family: "Game Of Squids","Sen", sans-serif
+    font-family: "Game Of Squids", "Sen", sans-serif
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2613,7 +2671,7 @@ hr {
 }
 
 .header-area .main-header .main-menu ul li:hover>a {
-    color: #30091c
+    color: var(--nav-hover-color);
 }
 
 .header-area .main-header .main-menu ul ul.submenu {
@@ -3136,6 +3194,7 @@ hr {
     visibility: visible;
     opacity: 1
 }
+
 /* 
 .pricing-card-area {
     background-color: #30091C;
@@ -3221,7 +3280,7 @@ hr {
 .pricing-card-area .single-card.active .card-bottom .black-btn {
     background: #fff;
     color: #30091c !important;
-    font-family: "Game Of Squids","Sen", sans-serif;
+    font-family: "Game Of Squids", "Sen", sans-serif;
 }
 
 .pricing-card-area .single-card.active .card-bottom .black-btn::before {
@@ -6901,9 +6960,9 @@ del {
 }
 
 .testimonial3 {
-  font-family: "Montserrat", sans-serif;
-  color: #8d97ad;
-  font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
 }
 
 .testimonial3 h1,
@@ -6912,39 +6971,39 @@ del {
 .testimonial3 h4,
 .testimonial3 h5,
 .testimonial3 h6 {
-  color: #3e4555;
+    color: #3e4555;
 }
 
 .testimonial3 .font-weight-medium {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .testimonial3 .bg-light {
-  background-color: #f4f8fa !important;
+    background-color: #f4f8fa !important;
 }
 
 .testimonial3 .subtitle {
-  color: #8d97ad;
-  line-height: 24px;
+    color: #8d97ad;
+    line-height: 24px;
 }
 
 .testimonial3 .testi3 .card-body {
-  padding: 40px;
+    padding: 40px;
 }
 
 .testimonial3 .testi3 h6 {
-  line-height: 26px;
+    line-height: 26px;
 }
 
 .testimonial3 .testi3 .thumb-img img {
-  width: 60px;
+    width: 60px;
 }
 
 
 .testimonial3 .testi3 .customer {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .testimonial3 .card.card-shadow {
@@ -6953,7 +7012,7 @@ del {
 }
 
 .testimonial3 .font-10 {
-	font-size: 10px;
+    font-size: 10px;
 }
 
 .testimonial3 .text-success {
@@ -6966,7 +7025,7 @@ del {
 
 .testimonial3 .owl-theme .owl-dots .owl-dot.active span,
 .testimonial3 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #316ce8;
+    background: #316ce8;
 }
 
 .row .single-card .card-img {
