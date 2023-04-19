@@ -2613,7 +2613,11 @@ hr {
 }
 
 .header-area .main-header .main-menu ul li:hover>a {
-    color: #30091c
+    /* color: #30091c */
+    /* color: white; */
+    /* color: cyan;
+    color: darkcyan; */
+    color: #00E6D7;
 }
 
 .header-area .main-header .main-menu ul ul.submenu {
