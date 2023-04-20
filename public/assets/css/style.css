@@ -3010,7 +3010,8 @@ hr {
     font-size: 50px;
     font-weight: 700;
     text-transform: capitalize;
-    line-height: 1
+    line-height: 1;
+    font-family: "Game Of Squids", "Sen", sans-serif;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3788,7 +3789,7 @@ hr {
 }
 
 .team-area .single-team:hover .team-img img {
-    transform: scale(1.06)
+    transform: scale(1.16)
 }
 
 .team-area .single-team:hover .team-img .team-social a {
