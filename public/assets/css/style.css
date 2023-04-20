@@ -424,7 +424,7 @@ hr {
     color: var(--fill-color);
     cursor: pointer;
     display: inline-block;
-    font-size: 0.8vw;
+    font-size: 14px;
     border-radius: 0px;
     -moz-user-select: none;
     font-weight: 400;
@@ -2653,7 +2653,7 @@ hr {
     font-weight: 400;
     padding: 39px 27px;
     display: block;
-    font-size: 0.8vw;
+    font-size: 14px;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -2765,7 +2765,7 @@ hr {
 }
 
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-    background-color: #30091c !important
+    background-color: var(--fill-color) !important
 }
 
 .mobile_menu .slicknav_menu .slicknav_nav {
