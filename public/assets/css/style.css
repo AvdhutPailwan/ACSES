@@ -685,14 +685,14 @@ hr {
     position: fixed;
     top: 0;
     width: 100%;
-    /* -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); */
-    /* box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); */
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
     z-index: 9999;
     -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-    /* -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); */
-    /* background: #fff */
-    backdrop-filter: blur(2px);
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    background: #fff
+    /* backdrop-filter: blur(2px); */
 }
 
 .mt-5 {
@@ -3219,6 +3219,10 @@ hr {
     margin-bottom: 46px
 }
 
+.card-bottom-li-left-marging{
+    margin-left: 175px;
+}
+
 .pricing-card-area .single-card .card-top span {
     color: #222;
     font-size: 16px;
@@ -3240,6 +3244,8 @@ hr {
     margin-bottom: 16px;
     font-size: 16px
 }
+
+
 
 .pricing-card-area .single-card .card-bottom ul li:last-child {
     margin-bottom: 45px
