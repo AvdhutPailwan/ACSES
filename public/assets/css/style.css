@@ -3245,6 +3245,9 @@ hr {
     font-size: 16px
 }
 
+.single-card-li-padding{
+    padding-left: 50px;
+}
 
 
 .pricing-card-area .single-card .card-bottom ul li:last-child {
