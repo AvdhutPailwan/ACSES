@@ -120,7 +120,7 @@
           nav: false
         },
         1024: {
-          items: 3
+          items: 2
         }
       }
     })
